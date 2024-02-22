@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calculatoritself{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    
+    
+}
+
+body{
+    opacity: 1;
+    background-image: linear-gradient(to right top, #171717, #252d37, #214855, #186568, #368269, #458b61, #5a9355, #749a48, #68933a, #5c8c2b, #4f851b, #417e03);
+    background-size:cover;
+    text-align: center;
+    margin:0;
+    display:flex; 
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: hidden;
+
+
+}
+
+h1{
+    font-family: Poppins;
+    margin: 1rem;
+
+}
+
+
+.lukeimg{
+    height: 1px;
+    display:grid;
+    transform: scale(.6);
+    transform: translateZ(10%);
+    position: absolute;
+    right: 41rem;
+
+    
+    
+}
+
+        
+
+#calculator {
+    max-width: 360px; 
+    background-color:#000000;
+    border-radius:1rem;
+    padding:1.1rem;
+    box-shadow:#4f851b 1px 1px 9px;
+
+
+}
+
+#display{
+    width:100%;
+    height: 50px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 1rem;
+    padding:1rem;
+    border-radius: 3px;
+    color:#749a48;
+    background:#232323;
+    border: none;
+    box-sizing:border-box;
+    font-family: PT Sans;
+
+}
+
+button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 20px 5px;
+    border-radius: 16rem;
+    border: none;
+    float: left;
+    background-color: #171717;
+    color: #c6ff7a;
+    box-shadow: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+
+.operator {
+    color: #458a00;
+    background-color: #171717;
+    font-family:  PT Sans;
+
+}
+
+#ac {
+    color:#9e1e1e;
+    font-family: PT Sans;
+}
+
+.equal {
+    width: calc(25% - 12px);
+    background-color:#171717;
+    font-family: PT Sans;
+}
+
+button:hover {
+    cursor: pointer;
+    text-shadow: #686868  1px 1px 3px;
+    opacity: 1;
+    transform: scaleX(2deg);
+    translate: 2px 2px 10px;    
+    
+}
+
+
+
+button:active {
+    transform:rotate3d(20deg);
+    box-shadow: #fffdfd;
+
+}
